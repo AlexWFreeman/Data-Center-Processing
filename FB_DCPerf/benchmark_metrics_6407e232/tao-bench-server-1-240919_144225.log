@@ -1,0 +1,168 @@
+netlink error: Operation not permitted
+INFO:root:enp0s3 state: up
+INFO:affinitize_nic_lib:enp0s3 uses following irqs: []
+INFO:affinitize_nic_lib:Assigning enp0s3 interrupts to 2 cpus out of 4 available cpus.
+INFO:affinitize_nic_lib:Not setting XPS - not a multi-queue device
+Max item size = 65536 B.
+Generate payload = 0.
+Sleep on the worker threads = 100 ns.
+Max slow request queue size = 1024.
+Number of dispatcher threads = 1.
+Sleep on the dispatchers = 100 ns
+Number of slow threads = 9.
+Sleep on the slow threads = 100 ns.
+Sleep on the slow path = 0 us.
+Item compression = 1.
+Stats threads sleep time = 5000 ms.
+Slow threads use semaphore = 0.
+Pin threads to dedicated cores = 0.
+Initialized item generators.
+Allocated memory for request queues per thead.
+Initialized slow path locks.
+All slow threads are created and running, waiting for requests.
+Starting slow request dispatcher thread 0.
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 762, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 36.3, wh_qps = 0.0, curr_it = 0.00M, slow_qps_oom =  0.0, crnt_conn = 951, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.4, hit_rate = 0.000, slow_qps = 2018.6, wh_qps = 0.0, curr_it = 0.01M, slow_qps_oom =  0.0, crnt_conn = 991, slow_th = 9, slow_reqs = 1, slow_resp = 1
+fast_qps = 3.8, hit_rate = 0.001, slow_qps = 3101.6, wh_qps = 0.0, curr_it = 0.03M, slow_qps_oom =  0.0, crnt_conn = 1039, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 4.2, hit_rate = 0.002, slow_qps = 2678.4, wh_qps = 0.0, curr_it = 0.04M, slow_qps_oom =  0.0, crnt_conn = 1099, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 7.0, hit_rate = 0.002, slow_qps = 3062.2, wh_qps = 0.0, curr_it = 0.05M, slow_qps_oom =  0.0, crnt_conn = 1147, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 8.0, hit_rate = 0.003, slow_qps = 2655.6, wh_qps = 0.0, curr_it = 0.07M, slow_qps_oom =  0.0, crnt_conn = 1189, slow_th = 9, slow_reqs = 2, slow_resp = 0
+fast_qps = 12.8, hit_rate = 0.005, slow_qps = 2558.4, wh_qps = 0.0, curr_it = 0.08M, slow_qps_oom =  getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+getpeername: Transport endpoint is not connected
+0.0, crnt_conn = 1227, slow_th = 9, slow_reqs = 2, slow_resp = 0
+fast_qps = 11.8, hit_rate = 0.005, slow_qps = 2266.6, wh_qps = 0.0, curr_it = 0.09M, slow_qps_oom =  0.0, crnt_conn = 1256, slow_th = 9, slow_reqs = 1, slow_resp = 1
+fast_qps = 16.8, hit_rate = 0.005, slow_qps = 3102.0, wh_qps = 0.0, curr_it = 0.11M, slow_qps_oom =  0.0, crnt_conn = 1296, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 20.8, hit_rate = 0.007, slow_qps = 2829.0, wh_qps = 0.0, curr_it = 0.12M, slow_qps_oom =  0.0, crnt_conn = 1330, slow_th = 9, slow_reqs = 2, slow_resp = 0
+fast_qps = 15.6, hit_rate = 0.006, slow_qps = 2443.8, wh_qps = 0.0, curr_it = 0.13M, slow_qps_oom =  0.0, crnt_conn = 1358, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 20.2, hit_rate = 0.008, slow_qps = 2543.8, wh_qps = 0.0, curr_it = 0.15M, slow_qps_oom =  0.0, crnt_conn = 1386, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 20.6, hit_rate = 0.008, slow_qps = 2636.6, wh_qps = 0.0, curr_it = 0.16M, slow_qps_oom =  0.0, crnt_conn = 1423, slow_th = 9, slow_reqs = 0, slow_resp = 3
+fast_qps = 26.2, hit_rate = 0.010, slow_qps = 2581.0, wh_qps = 0.0, curr_it = 0.17M, slow_qps_oom =  0.0, crnt_conn = 1512, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 26.0, hit_rate = 0.008, slow_qps = 3099.0, wh_qps = 0.0, curr_it = 0.19M, slow_qps_oom =  0.0, crnt_conn = 1613, slow_th = 9, slow_reqs = 2, slow_resp = 0
+fast_qps = 31.2, hit_rate = 0.010, slow_qps = 2963.4, wh_qps = 0.0, curr_it = 0.20M, slow_qps_oom =  0.0, crnt_conn = 1693, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 33.2, hit_rate = 0.012, slow_qps = 2832.4, wh_qps = 0.0, curr_it = 0.22M, slow_qps_oom =  0.0, crnt_conn = 1767, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 23.6, hit_rate = 0.013, slow_qps = 1786.8, wh_qps = 0.0, curr_it = 0.23M, slow_qps_oom =  0.0, crnt_conn = 742, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 17.8, hit_rate = 0.012, slow_qps = 1470.6, wh_qps = 0.0, curr_it = 0.23M, slow_qps_oom =  0.0, crnt_conn = 149, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 40.6, hit_rate = 0.016, slow_qps = 2543.4, wh_qps = 0.0, curr_it = 0.25M, slow_qps_oom =  0.0, crnt_conn = 379, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 24.2, hit_rate = 0.012, slow_qps = 1988.0, wh_qps = 0.0, curr_it = 0.26M, slow_qps_oom =  0.0, crnt_conn = 525, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 38.2, hit_rate = 0.015, slow_qps = 2552.4, wh_qps = 0.0, curr_it = 0.27M, slow_qps_oom =  0.0, crnt_conn = 609, slow_th = 9, slow_reqs = 0, slow_resp = 3
+fast_qps = 39.0, hit_rate = 0.014, slow_qps = 2707.2, wh_qps = 0.0, curr_it = 0.28M, slow_qps_oom =  0.0, crnt_conn = 692, slow_th = 9, slow_reqs = 1, slow_resp = 0
+fast_qps = 56.8, hit_rate = 0.016, slow_qps = 3423.8, wh_qps = 0.0, curr_it = 0.30M, slow_qps_oom =  0.0, crnt_conn = 786, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 42.2, hit_rate = 0.015, slow_qps = 2804.6, wh_qps = 0.0, curr_it = 0.31M, slow_qps_oom =  0.0, crnt_conn = 864, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 51.8, hit_rate = 0.017, slow_qps = 2986.2, wh_qps = 0.0, curr_it = 0.33M, slow_qps_oom =  0.0, crnt_conn = 923, slow_th = 9, slow_reqs = 1, slow_resp = 1
+fast_qps = 56.8, hit_rate = 0.020, slow_qps = 2823.4, wh_qps = 0.0, curr_it = 0.34M, slow_qps_oom =  0.0, crnt_conn = 979, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 48.2, hit_rate = 0.019, slow_qps = 2482.4, wh_qps = 0.0, curr_it = 0.35M, slow_qps_oom =  0.0, crnt_conn = 1021, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 50.6, hit_rate = 0.019, slow_qps = 2567.4, wh_qps = 0.0, curr_it = 0.37M, slow_qps_oom =  0.0, crnt_conn = 1059, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 71.8, hit_rate = 0.021, slow_qps = 3273.6, wh_qps = 0.0, curr_it = 0.38M, slow_qps_oom =  0.0, crnt_conn = 1110, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 51.8, hit_rate = 0.022, slow_qps = 2356.2, wh_qps = 0.0, curr_it = 0.40M, slow_qps_oom =  0.0, crnt_conn = 1142, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 56.0, hit_rate = 0.022, slow_qps = 2534.6, wh_qps = 0.0, curr_it = 0.41M, slow_qps_oom =  0.0, crnt_conn = 1175, slow_th = 9, slow_reqs = 3, slow_resp = 1
+fast_qps = 56.0, hit_rate = 0.020, slow_qps = 2714.0, wh_qps = 0.0, curr_it = 0.42M, slow_qps_oom =  0.0, crnt_conn = 1210, slow_th = 9, slow_reqs = 1, slow_resp = 1
+fast_qps = 72.4, hit_rate = 0.024, slow_qps = 2948.6, wh_qps = 0.0, curr_it = 0.44M, slow_qps_oom =  0.0, crnt_conn = 1248, slow_th = 9, slow_reqs = 2, slow_resp = 0
+fast_qps = 56.0, hit_rate = 0.026, slow_qps = 2109.8, wh_qps = 0.0, curr_it = 0.45M, slow_qps_oom =  0.0, crnt_conn = 1275, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 63.4, hit_rate = 0.023, slow_qps = 2704.4, wh_qps = 0.0, curr_it = 0.46M, slow_qps_oom =  0.0, crnt_conn = 1308, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 73.0, hit_rate = 0.026, slow_qps = 2714.2, wh_qps = 0.0, curr_it = 0.47M, slow_qps_oom =  0.0, crnt_conn = 1344, slow_th = 9, slow_reqs = 0, slow_resp = 1
+fast_qps = 79.0, hit_rate = 0.025, slow_qps = 3030.6, wh_qps = 0.0, curr_it = 0.49M, slow_qps_oom =  0.0, crnt_conn = 1388, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 69.8, hit_rate = 0.027, slow_qps = 2508.0, wh_qps = 0.0, curr_it = 0.50M, slow_qps_oom =  0.0, crnt_conn = 1415, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 93.4, hit_rate = 0.028, slow_qps = 3249.8, wh_qps = 0.0, curr_it = 0.52M, slow_qps_oom =  0.0, crnt_conn = 1460, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 78.8, hit_rate = 0.028, slow_qps = 2769.4, wh_qps = 0.0, curr_it = 0.53M, slow_qps_oom =  0.0, crnt_conn = 1492, slow_th = 9, slow_reqs = 0, slow_resp = 3
+fast_qps = 68.8, hit_rate = 0.028, slow_qps = 2428.0, wh_qps = 0.0, curr_it = 0.54M, slow_qps_oom =  0.0, crnt_conn = 1516, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 86.6, hit_rate = 0.032, slow_qps = 2637.6, wh_qps = 0.0, curr_it = 0.56M, slow_qps_oom =  0.0, crnt_conn = 1545, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 96.8, hit_rate = 0.030, slow_qps = 3081.4, wh_qps = 0.0, curr_it = 0.57M, slow_qps_oom =  0.0, crnt_conn = 1611, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 95.8, hit_rate = 0.030, slow_qps = 3062.2, wh_qps = 0.0, curr_it = 0.59M, slow_qps_oom =  0.0, crnt_conn = 1652, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 109.6, hit_rate = 0.032, slow_qps = 3290.6, wh_qps = 0.0, curr_it = 0.60M, slow_qps_oom =  0.0, crnt_conn = 1700, slow_th = 9, slow_reqs = 1, slow_resp = 2
+fast_qps = 92.2, hit_rate = 0.033, slow_qps = 2691.6, wh_qps = 0.0, curr_it = 0.62M, slow_qps_oom =  0.0, crnt_conn = 1738, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 92.0, hit_rate = 0.032, slow_qps = 2820.6, wh_qps = 0.0, curr_it = 0.63M, slow_qps_oom =  0.0, crnt_conn = 1784, slow_th = 9, slow_reqs = 2, slow_resp = 1
+fast_qps = 101.8, hit_rate = 0.036, slow_qps = 2688.8, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 715, slow_th = 9, slow_reqs = 0, slow_resp = 2
+fast_qps = 47.6, hit_rate = 0.036, slow_qps = 1289.8, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 11, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+Signal handled: Terminated.
+fast_qps = 0.0, hit_rate = 0.000, slow_qps = 0.0, wh_qps = 0.0, curr_it = 0.65M, slow_qps_oom =  0.0, crnt_conn = 2, slow_th = 9, slow_reqs = 0, slow_resp = 0
+ethtool -L lo combined 2
+/home/alex/DCPerf/benchmarks/tao_bench/affinitize/affinitize_nic.py -f -a --xps -A all-nodes --max-cpus 2
+Use 2 NIC channels, 3 fast threads and 8448 MB cache memory
+/home/alex/DCPerf/benchmarks/tao_bench/tao_bench_server -c 180000 -u nobody -m 8448 -t 3 -B binary -p 11211 -I 16m -Z -o lru_crawler,ssl_chain_cert=/home/alex/DCPerf/benchmarks/tao_bench/certs/example.crt,ssl_key=/home/alex/DCPerf/benchmarks/tao_bench/certs/example.key,tao_it_gen_file=/home/alex/DCPerf/benchmarks/tao_bench/leader_sizes.json,tao_max_item_size=65536,tao_gen_payload=0,tao_slow_dispatchers=1,tao_num_slow_threads=9,tao_max_slow_reqs=1024,tao_worker_sleep_ns=100,tao_dispatcher_sleep_ns=100,tao_slow_sleep_ns=100,tao_slow_path_sleep_us=0,tao_compress_items=1,tao_stats_sleep_ms=5000,tao_slow_use_semaphore=0,tao_pin_threads=0

@@ -1,0 +1,61 @@
+{
+  "config": {
+    "args": [
+      "--num-servers={num_servers}",
+      "--memsize={memsize}",
+      "--fast-threads-ratio={fast_threads_ratio}",
+      "--slow-to-fast-ratio={slow_to_fast_ratio}",
+      "--port-number-start=11211",
+      "--warmup-time={warmup_time}",
+      "--test-time={test_time}",
+      "--num-clients={num_clients}",
+      "--clients-per-thread={clients_per_thread}",
+      "--bind-cpu={bind_cpu}",
+      "--bind-mem={bind_mem}"
+    ],
+    "benchmark": "tao_bench_standalone",
+    "description": "Spawns multiple Tao benchmark servers depending on the CPU core count. After executing this job, please see the tail of benchpress.log for instructions on starting clients. Clients start on the same instance. MAKE SURE to start clients within 1 minute.",
+    "hook_bg_duration": null,
+    "hooks": [
+      {
+        "hook": "copymove",
+        "options": {
+          "after": [
+            "benchmarks/tao_bench/server*.csv",
+            "tao-bench-server-*.log"
+          ],
+          "is_move": true
+        }
+      }
+    ],
+    "iteration_num": null,
+    "name": "tao_bench_standalone",
+    "timestamp": 1726700707,
+    "uuid": "0772e9b8",
+    "vars": [
+      "num_servers=0",
+      "memsize=0",
+      "fast_threads_ratio=0.75",
+      "slow_to_fast_ratio=3",
+      "warmup_time=0",
+      "test_time=720",
+      "num_clients=2",
+      "clients_per_thread=0",
+      "bind_cpu=1",
+      "bind_mem=1"
+    ]
+  },
+  "job": "tao_bench_standalone",
+  "metrics": {
+    "fast_qps": 0,
+    "hit_ratio": 0.0,
+    "num_data_points": 0,
+    "role": "server",
+    "score": 0.0,
+    "slow_qps": 0,
+    "spawned_instances": 1,
+    "successful_instances": 1,
+    "total_qps": 0
+  },
+  "timestamp": "2024-09-18T23:05:08Z"
+}
