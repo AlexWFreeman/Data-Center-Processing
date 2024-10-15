@@ -1,0 +1,45 @@
+{
+  "benchmark_args": [
+    "client",
+    "--clients-per-thread=108",
+    "--server-hostname=node0.tao-dcperf.eecse6894-pg0.utah.cloudlab.us",
+    "--server-memsize=125",
+    "--target-hit-ratio=0.9",
+    "--data-size-min=8191",
+    "--data-size-max=8193",
+    "--tunning-factor=0.807",
+    "--server-port-number=11211",
+    "--warmup-time=4500",
+    "--test-time=720",
+    "--sanity=0",
+    "--real"
+  ],
+  "benchmark_desc": "Tao benchmark using custom amount of memory and ports. MAKE SURE to start clients within 1 minute.",
+  "benchmark_hooks": [
+    "copymove: {'is_move': True, 'after': ['benchmarks/tao_bench/server.csv']}"
+  ],
+  "benchmark_name": "tao_bench_custom",
+  "machines": [
+    {
+      "cpu_architecture": "x86_64",
+      "cpu_model": "AMD EPYC 7402P 24-Core Processor",
+      "hostname": "node0.tao-dcperf.eecse6894-pg0.utah.cloudlab.us",
+      "kernel_version": "5.15.0-122-generic",
+      "mem_total_kib": "131480992 KiB",
+      "num_logical_cpus": "48",
+      "os_distro": "ubuntu",
+      "os_release_name": "Ubuntu 22.04.2 LTS"
+    }
+  ],
+  "metadata": {
+    "L1d cache": "768 KiB (24 instances)",
+    "L1i cache": "768 KiB (24 instances)",
+    "L2 cache": "12 MiB (24 instances)",
+    "L3 cache": "128 MiB (8 instances)"
+  },
+  "metrics": {
+    "role": "client"
+  },
+  "run_id": "61b91f09",
+  "timestamp": 1729027531
+}

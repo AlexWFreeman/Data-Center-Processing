@@ -1,0 +1,56 @@
+{
+  "benchmark_args": [
+    "--num-servers=0",
+    "--memsize=0",
+    "--fast-threads-ratio=0.75",
+    "--slow-to-fast-ratio=3",
+    "--interface-name=lo",
+    "--port-number-start=11211",
+    "--warmup-time=4500",
+    "--test-time=720",
+    "--server-hostname=",
+    "--num-clients=2",
+    "--clients-per-thread=0",
+    "--bind-cpu=1",
+    "--bind-mem=1",
+    "--sanity=0",
+    "--real"
+  ],
+  "benchmark_desc": "Spawns multiple Tao benchmark servers depending on the CPU core count. After executing this job, please see the tail of benchpress.log for instructions on starting clients. MAKE SURE to start clients within 1 minute.",
+  "benchmark_hooks": [
+    "tao_instruction: None",
+    "copymove: {'is_move': True, 'after': ['benchmarks/tao_bench/server*.csv', 'tao-bench-server-*.log']}"
+  ],
+  "benchmark_name": "tao_bench_autoscale",
+  "machines": [
+    {
+      "cpu_architecture": "x86_64",
+      "cpu_model": "AMD EPYC 7402P 24-Core Processor",
+      "hostname": "node0.tao-dcperf.eecse6894-pg0.utah.cloudlab.us",
+      "kernel_version": "5.15.0-122-generic",
+      "mem_total_kib": "131480992 KiB",
+      "num_logical_cpus": "48",
+      "os_distro": "ubuntu",
+      "os_release_name": "Ubuntu 22.04.2 LTS"
+    }
+  ],
+  "metadata": {
+    "L1d cache": "768 KiB (24 instances)",
+    "L1i cache": "768 KiB (24 instances)",
+    "L2 cache": "12 MiB (24 instances)",
+    "L3 cache": "128 MiB (8 instances)"
+  },
+  "metrics": {
+    "fast_qps": 392374.5965517241,
+    "hit_ratio": 0.8869233156920071,
+    "num_data_points": 58,
+    "role": "server",
+    "score": 0.647730140859292,
+    "slow_qps": 50025.08965517239,
+    "spawned_instances": 1,
+    "successful_instances": 1,
+    "total_qps": 442399.6862068965
+  },
+  "run_id": "6cb873d6",
+  "timestamp": 1729027495
+}

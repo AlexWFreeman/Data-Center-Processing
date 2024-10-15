@@ -1,0 +1,71 @@
+{
+  "config": {
+    "args": [
+      "--num-servers={num_servers}",
+      "--memsize={memsize}",
+      "--fast-threads-ratio={fast_threads_ratio}",
+      "--slow-to-fast-ratio={slow_to_fast_ratio}",
+      "--interface-name={interface_name}",
+      "--port-number-start=11211",
+      "--warmup-time={warmup_time}",
+      "--test-time={test_time}",
+      "--server-hostname={server_hostname}",
+      "--num-clients={num_clients}",
+      "--clients-per-thread={clients_per_thread}",
+      "--bind-cpu={bind_cpu}",
+      "--bind-mem={bind_mem}",
+      "--sanity={sanity}",
+      "--real"
+    ],
+    "benchmark": "tao_bench_autoscale",
+    "description": "Spawns multiple Tao benchmark servers depending on the CPU core count. After executing this job, please see the tail of benchpress.log for instructions on starting clients. MAKE SURE to start clients within 1 minute.",
+    "hook_bg_duration": null,
+    "hooks": [
+      {
+        "hook": "tao_instruction"
+      },
+      {
+        "hook": "copymove",
+        "options": {
+          "after": [
+            "benchmarks/tao_bench/server*.csv",
+            "tao-bench-server-*.log"
+          ],
+          "is_move": true
+        }
+      }
+    ],
+    "iteration_num": null,
+    "name": "tao_bench_autoscale",
+    "timestamp": 1729027495,
+    "uuid": "6cb873d6",
+    "vars": [
+      "num_servers=0",
+      "memsize=0",
+      "fast_threads_ratio=0.75",
+      "slow_to_fast_ratio=3",
+      "interface_name=eth0",
+      "warmup_time=0",
+      "test_time=720",
+      "server_hostname=",
+      "num_clients=2",
+      "clients_per_thread=0",
+      "bind_cpu=1",
+      "bind_mem=1",
+      "sanity=0"
+    ]
+  },
+  "job": "tao_bench_autoscale",
+  "metrics": {
+    "fast_qps": 392374.5965517241,
+    "hit_ratio": 0.8869233156920071,
+    "num_data_points": 58,
+    "role": "server",
+    "score": 0.647730140859292,
+    "slow_qps": 50025.08965517239,
+    "spawned_instances": 1,
+    "successful_instances": 1,
+    "total_qps": 442399.6862068965
+  },
+  "timestamp": "2024-10-15T15:24:55Z"
+}
