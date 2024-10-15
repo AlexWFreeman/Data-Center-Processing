@@ -1,1 +1,0 @@
-./benchpress_cli.py run tao_bench_autoscale -i '{"warmup_time": 60, "test_time": 120, "interface_name": "lo"}'
